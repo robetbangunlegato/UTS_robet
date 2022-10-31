@@ -12,6 +12,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        getSupportActionBar().setTitle("UTS Robet");
         tampilNamaLengkap =findViewById(R.id.tv_tampil_nama_lengkap);
         tampilNomorPendaftaran = findViewById(R.id.tv_tampil_nomor_daftar);
         tampilJalurPendaftaran = findViewById(R.id.tv_tampil_jalur_pendaftaran);

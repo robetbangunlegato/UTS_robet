@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UTS Robet</string>
+    <string name="app_name">Pendaftaran</string>
     <string-array name="arr_kemungkinan">
         <item>Jalur Pendaftaran</item>
         <item>Jalur Tanpa Tes</item>

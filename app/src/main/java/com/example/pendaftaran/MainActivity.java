@@ -28,14 +28,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("UTS Robet");
         etNamaLengkap = findViewById(R.id.et_nama_lengkap);
         etNomorPendaftaraan = findViewById(R.id.et_nomor_pendaftaraan);
         spJalurPendaftaraan = findViewById(R.id.sp_jalur_pendaftaran);
         cbKonfirmasiDaftar = findViewById(R.id.cb_konfirmasi_dafar);
         btnDaftar = findViewById(R.id.btn_daftar);
-
-
-
 
         btnDaftar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 if (nama.trim().equals(""))
                 {
                     etNamaLengkap.setError("Nama Harus Di isi!");
-
-//                    cbKonfirmasiDaftar.setError("Konfirmasi Daftar Harus Di centang");
 
                 }else if(nomorPendaftaran.trim().equals("")){
                     etNomorPendaftaraan.setError("Nomor Pendaftaran Harus Di isi");
