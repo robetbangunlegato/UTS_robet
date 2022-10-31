@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="17dp"
+    >
 
     <TextView
         android:layout_width="match_parent"
@@ -14,9 +18,43 @@
         android:paddingTop="40dp"
         android:textStyle="bold"
         />
+
     <EditText
-        android:layout_width=""
-        android:layout_height=""
+        android:paddingTop="40dp"
+        android:id="@+id/et_nama_lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap" />
+
+    <EditText
+        android:id="@+id/et_nomor_pendaftaraan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Pendaftaran"
+        />
+    <Spinner
+        android:id="@+id/sp_jalur_pendaftaran"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/arr_kemungkinan"
+        />
+    <CheckBox
+        android:id="@+id/cb_konfirmasi_dafar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Daftar"
+        />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        />
+
+
+
 
 
 

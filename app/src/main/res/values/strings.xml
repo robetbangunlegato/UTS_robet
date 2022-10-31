@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UTS Robet</string>
+    <string-array name="arr_kemungkinan">
+        <item>Jalur Pendaftaran</item>
+        <item>Jalur Tanpa Tes</item>
+        <item>Tes Tertulis</item>
+        <item>Tes Wawancara</item>
+        <item>Rekomendasi</item>
+    </string-array>
 </resources>
